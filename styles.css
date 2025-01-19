@@ -18,9 +18,7 @@
     opacity: 0;
     }
 
-    #ninpu{
-        opacity: 0;
-    }
+  
 
     @media screen and (max-width: 480px) {
     .static-image,
@@ -29,3 +27,88 @@
     }
     }
 
+    img { width: 100%; 
+    }
+
+    body{
+        height: 250px;              /* 高さ指定 */
+        padding:  20px;             /* 余白指定 */
+        font-size: 20px;            /* 文字サイズ指定 */
+        background-color: #fee6f7;  /* 背景色指定 */
+    }
+ 
+ 
+    body {
+        font-family: sans-serif;
+        font-size: 15px;
+        text-shadow: 4px 4px 4px #aaa;
+      }
+
+    p{
+       
+        font-size: 60px;
+    }  
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fee4ea;
+        margin: 0;
+        padding: 10px;
+      }
+  
+      .chat-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+  
+      .message {
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        line-height: 1.5;
+        word-wrap: break-word;
+        display: inline-block;
+        max-width: 70%; 
+      }
+  
+      .left {
+        align-self: flex-start;
+        background-color: #ffffff;
+        
+      }
+  
+      .right {
+        align-self: flex-end;
+        background-color: #c0e6f0;
+        
+      }
+  
+      .left::before {
+        content: '';
+        position: relative;
+        display: inline-block;
+        border: 10px solid transparent;
+        border-right: 10px solid #ffffff;
+        margin-right: 5px;
+        margin-top: 5px;
+      }
+  
+      .right::after {
+        content: '';
+        position: relative;
+        display: inline-block;
+        border: 10px solid transparent;
+        border-left: 10px solid #c0e6f0;
+        margin-left: 5px;
+        margin-top: 5px;
+      }
+  
+
+      .img-01{
+        margin-top: 10rem;
+      }
+
+      
